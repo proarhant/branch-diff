@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  git-flask:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
